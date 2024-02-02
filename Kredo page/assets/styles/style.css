@@ -1,0 +1,141 @@
+/* glabal styling */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 1em auto;
+}
+
+/* (1) Header area */
+
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding-top: 1em;
+    
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav li a{
+    font-family:'Times New Roman', Times, serif;
+    color: #312a26;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav li img{
+    height: 50px;
+    width: 65px;
+}
+
+/* (2) Banner area */
+.banner{
+    background-image: url("../images/atf.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+}
+
+.banner-text{
+    text-align: right;
+    }
+
+.banner-text h2{
+    color: #fff;
+    font-size: 2em;
+    padding: 1em auto;
+    
+}
+
+.banner-text p{
+    color: #fff;
+}
+
+.banner-text a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(237, 132, 3);
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+/* (3) About area */
+.about{
+    width: 100%;
+    background-color:#f2f2f2;
+    overflow: auto;
+}
+
+.about h3{
+    text-align: center;
+    padding: 1em;
+}
+
+.about-items{
+    width: 85%;
+    height: 300px;
+    background-position: center;
+    position: relative;
+
+}
+
+.about-item1{
+    margin: 0 auto;
+}
+
+.about-item1 img{
+    float: left;
+    margin-right: 1em;
+
+}
+
+.about-item2 img{
+    text-align: right;
+
+}
+
+.about-items a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(237, 132, 3);
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+
+
